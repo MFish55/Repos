@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 1</title>
+	</head>
+	<body>
+		<h1>An Album</h1>
+		<h2>The Band</h2>
+		<h3>1/1/00</h3>
+		<p>The description of the album goes here</p>
+		<h2>Band Members</h2>
+		<p>John - Lead Vocals</p>
+		<p>Jacob - Guitar</p>
+		<p>Jingle - Acoustic Guitar</p>
+		<p>Heimer - Drums</p>
+		<p>Schmidt - Bass</p>
+	</body>
+</html>
