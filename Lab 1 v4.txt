@@ -23,7 +23,8 @@
 	<br>
 	Heimer - Drums
 	<br>
-	Schmidt - Bass</p>
+	Schmidt - Bass
+	</p>
    </div>
 </body>
 </html>
