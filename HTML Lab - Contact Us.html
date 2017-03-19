@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<form action="MyCompany.html" method="POST">
+<table>
+	<tr>
+		<td align="right">First Name: </td>
+		<td align="left"><input type ="text" name="FirstName" /></td>
+	</tr>
+	<tr>
+		<td align="right">Last Name: </td>
+		<td align="left"><input type ="text" name="LastName" /></td>
+	</tr>
+	<tr>
+		<td align="right">Email: </td>
+		<td align="left"><input type ="text" name="Email" /></td>
+	</tr>
+	<tr>
+    	<td align="right">Type of License: </td>
+    	<td><input type="radio" name="FormType" value="Business" checked/>Business
+    	<input type="radio" name="FormType" value="Personal" checked/>Personal</td>
+    </tr>
+    <tr>
+    	<td align="right">Reason:</td>
+    	<td align="left"><select name="Reason">
+    		<option value="Select a Reason">Select a Reason</option>
+    		<option value="Software Support">Software Support</option>
+    		<option value="Hardware Support">Hardware Support</option>
+    		<option value="Information Support">Information Support</option>
+    	</select>
+    </tr>
+    <tr>
+    	<td align="right" align="top">Additional Information:</td>
+    	<td align="left"><textarea name="Additional Information"></textarea></td>
+    </tr>
+    <tr>
+    	<td></td>
+    	<td><input type="checkbox" name="Agree" value="Terms">I have read the terms of service.</td>
+    </tr>
+    <tr>
+    	<td></td>
+    	<td align="left"><input type="submit" name="Send Request" value="Send Request"/></td>
+    </tr>
+<table>
