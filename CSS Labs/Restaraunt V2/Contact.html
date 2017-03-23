@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<link href="restarauntStyles.css" rel="stylesheet" type="text/css" />
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+<div id="header">
+	<h1>The Redtangle</h1>
+</div>
+<div id="Links">
+	<hr>
+	<a href="Home.html">Home</a>
+	&nbsp;
+	<a href="Menu.html">Menu</a>
+	&nbsp;
+	<a href="Contact.html">Contact Us</a>
+	<hr>
+</div>
+	<br>
+	<form action="MyContact.html" method="POST">
+	<center><table>
+	<tr>
+		<td colspan="1.5" align="right"><b>Name: </b></td>
+		<td align=><input type ="text" name="Name" /></td>
+	</tr>
+	<tr>
+		<td align="right"><b>Email: </b></td>
+		<td align="left"><input type ="text" name="Email" /></td>
+	</tr>
+	<tr>
+		<td align="right"><b>Phone: </b></td>
+		<td align="left"><input type ="text" name="Phone" /></td>
+	</tr>
+	<tr>
+	    <td align="right"><b>Reason for Inquiry:<b></td>
+    	<td align="left"><select name="Reason">
+    		<option value="Select a Reason">Catering</option>
+    		<option value="Software Support">Private Party</option>
+    		<option value="Hardware Support">Feedback</option>
+    		<option value="Information Support">Other</option>
+    	</select>
+    <tr>
+    	<td align="right" align="top"><b>Additional Information:</b></td>
+    	<td align="left"><textarea name="Additional Information"></textarea></td>
+    </tr>
+    <tr>
+        <td align="right"><b>Have you been to this restaraunt? </td>
+    	<td><input type="radio" name="FormType" value="No" checked/>No
+    	<input type="radio" name="FormType" value="Yes" checked/>Yes</td>
+    </tr>
+    <tr>
+    	<td align="right"><b>Best days to contact you:</b></td>
+        <td><input type="checkbox" name="myChoices" value="Monday" checked/>M
+    	<input type="checkbox" name="myChoices" value="Tuesday" checked/>T
+    	<input type="checkbox" name="myChoices" value="Wednesday" checked/>W
+    	<input type="checkbox" name="myChoices" value="Thursday" checked/>Th
+    	<input type="checkbox" name="myChoices" value="Friday" checked/>F</td>
+    </tr>
+    <tr>
+    	<td></td>
+    	<td align="right"><input type="submit" name="Send Request" value="Send Request"/></td>
+
+	</table></center>
+
+	<div id="footer">
+	<hr>
+	<h4>0000 50th Place Northeast, Snozberry, MN, 00000</h4>
+	<h4>000-8675-309</h4>
+	</div>
+</body>
