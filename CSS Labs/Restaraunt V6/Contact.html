@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<link href="restarauntStyles.css" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<style>
+	td {text-decoration: underline;}
+	</style>
+	<title>Contact Us</title>
+</head>
+<body>
+
+<div id="header">
+	<div class="page-header">
+	<h2>The Redtangle<h2>
+	<h3>New location opening up soon!<h3>
+</div>
+<div id="Links">
+	<ul class="nav nav-tabs">
+		<li><a href="Home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+		<li><a href="Menu.html">Menu</a></li>
+		<li class="active"><a href="Contact.html">Contact Us</a></li>
+	</ul>
+	<hr>
+</div>
+	<br>
+	<form action="MyContact.html" method="POST">
+	<center><table style="margin-top:100px">
+	<tr>
+		<td colspan="1.5" align="right"><b>Name: </b></td>
+		<td align=><input type ="text" name="Name" /></td>
+	</tr>
+	<tr>
+		<td align="right"><b>Email: </b></td>
+		<td align="left"><input type ="text" name="Email" /></td>
+	</tr>
+	<tr>
+		<td align="right"><b>Phone: </b></td>
+		<td align="left"><input type ="text" name="Phone" /></td>
+	</tr>
+	<tr>
+	    <td align="right"><b>Reason for Inquiry:<b></td>
+    	<td align="left"><select name="Reason">
+    		<option value="Select a Reason">Catering</option>
+    		<option value="Software Support">Private Party</option>
+    		<option value="Hardware Support">Feedback</option>
+    		<option value="Information Support">Other</option>
+    	</select>
+    <tr>
+    	<td align="right" align="top">Additional Information:</td>
+    	<td align="left"><textarea name="Additional Information"></textarea></td>
+    </tr>
+    <tr>
+        <td align="right"><b>Have you been to this restaraunt? </td>
+    	<td><input type="radio" name="FormType" value="No" checked/>No
+    	<input type="radio" name="FormType" value="Yes" checked/>Yes</td>
+    </tr>
+    <tr>
+    	<td align="right"><b>Best days to contact you:</b></td>
+        <td><input type="checkbox" name="myChoices" value="Monday" checked/>M
+    	<input type="checkbox" name="myChoices" value="Tuesday" checked/>T
+    	<input type="checkbox" name="myChoices" value="Wednesday" checked/>W
+    	<input type="checkbox" name="myChoices" value="Thursday" checked/>Th
+    	<input type="checkbox" name="myChoices" value="Friday" checked/>F</td>
+    </tr>
+    <tr>
+    	<td></td>
+    	<td align="right"><input type="submit" name="Send Request" value="Send Request"/></td>
+
+	</table></center>
+	<hr><hr><hr><hr><hr>
+	<div id="footer">
+	<hr>
+	<h5>0000 50th Place Northeast, Snozberry, MN, 00000</h5>
+	<h5>000-8675-309</h5>
+	</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
